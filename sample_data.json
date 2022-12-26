@@ -1,0 +1,149 @@
+{
+    "1": {
+        "calculator": "state",
+        "calculator_parameters": {
+            "input_data": {
+                "KPOINT_MESH": [
+                    1,
+                    1,
+                    1
+                ],
+                "KPOINT_SHIFT": [
+                    "OFF",
+                    "OFF",
+                    "OFF"
+                ],
+                "NEG": 12,
+                "NSCF": 1000,
+                "TASK": "SCF",
+                "WAY_MIX": 6,
+                "MIX_WHAT": 1,
+                "KBXMIX": 30,
+                "MIX_ALPHA": 0.5,
+                "WIDTH": -0.002,
+                "NSPIN": 2,
+                "XCTYPE": "ggapbe",
+                "PSEUDOS": [
+                    [
+                        "Br",
+                        79.904,
+                        "pot.Br_pbe1"
+                    ]
+                ],
+                "GMAX": 7,
+                "GMAXP": 28
+            }
+        },
+        "cell": {
+            "array": {
+                "__ndarray__": [
+                    [
+                        3,
+                        3
+                    ],
+                    "float64",
+                    [
+                        30.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        30.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        30.0
+                    ]
+                ]
+            },
+            "__ase_objtype__": "cell"
+        },
+        "ctime": 22.91132210642301,
+        "data": {
+            "comp_spec": {
+                "csv_loc": "./list_of_single_atoms.csv",
+                "pw_loc": "/sqfs/home/u6b589/STATE/state-5.6.8/src",
+                "pw_name": "STATE",
+                "mpi_command": "mpirun",
+                "pseudo_loc": "/sqfs/home/u6b589/STATE/gncpp_pack",
+                "n_cpus": 4,
+                "n_nodes": 1,
+                "prefix": "atom_run",
+                "file_prefix": "state"
+            },
+            "archive_option": {
+                "name_format": "unique_id",
+                "file_format": "json"
+            }
+        },
+        "energy": -371.93701052079405,
+        "forces": {
+            "__ndarray__": [
+                [
+                    1,
+                    3
+                ],
+                "float64",
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ]
+        },
+        "key_value_pairs": {
+            "data_modified": "29/11/2022 16:38:58",
+            "system_type": "Atom",
+            "functional": "ggapbe",
+            "gmax": 7,
+            "gmaxp": 28,
+            "spin": "True",
+            "pseudos": "Br@pot.Br_pbe1",
+            "vacuum": 30.0
+        },
+        "mtime": 22.91132520597667,
+        "numbers": {
+            "__ndarray__": [
+                [
+                    1
+                ],
+                "int64",
+                [
+                    35
+                ]
+            ]
+        },
+        "pbc": {
+            "__ndarray__": [
+                [
+                    3
+                ],
+                "bool",
+                [
+                    false,
+                    false,
+                    false
+                ]
+            ]
+        },
+        "positions": {
+            "__ndarray__": [
+                [
+                    1,
+                    3
+                ],
+                "float64",
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            ]
+        },
+        "unique_id": "100680847e7880b23388b532b0b4921a",
+        "user": "u6b589"
+    },
+    "ids": [
+        1
+    ],
+    "nextid": 2
+}
